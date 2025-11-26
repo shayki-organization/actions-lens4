@@ -8,6 +8,6 @@ on:
 jobs:
   deploy-env:
     name: Create environment
-    uses: ./.github/workflows/test.yml@v0.1
+    uses: ./.github/workflows/test.yml
     with:
       test: test
